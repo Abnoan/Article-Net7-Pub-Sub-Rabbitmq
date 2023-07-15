@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Article-Net7-Pub-Sub-Rabbitmq", "Article-Net7-Pub-Sub-Rabbitmq\Article-Net7-Pub-Sub-Rabbitmq.csproj", "{60FCB524-65D9-4F31-A362-EEB29CD82D8E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerShop.Customers", "Article-Net7-Pub-Sub-Rabbitmq\PowerShop.Customers.csproj", "{60FCB524-65D9-4F31-A362-EEB29CD82D8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerShop.Sales", "PowerShop.Sales\PowerShop.Sales.csproj", "{28FF2309-7593-4D47-A203-C72E31D2CAD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerShop.Notifications", "PowerShop.Notifications\PowerShop.Notifications.csproj", "{66EA6C7E-4F28-4CA8-805F-7C1D543802D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{60FCB524-65D9-4F31-A362-EEB29CD82D8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60FCB524-65D9-4F31-A362-EEB29CD82D8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60FCB524-65D9-4F31-A362-EEB29CD82D8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28FF2309-7593-4D47-A203-C72E31D2CAD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28FF2309-7593-4D47-A203-C72E31D2CAD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28FF2309-7593-4D47-A203-C72E31D2CAD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28FF2309-7593-4D47-A203-C72E31D2CAD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66EA6C7E-4F28-4CA8-805F-7C1D543802D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66EA6C7E-4F28-4CA8-805F-7C1D543802D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66EA6C7E-4F28-4CA8-805F-7C1D543802D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66EA6C7E-4F28-4CA8-805F-7C1D543802D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
